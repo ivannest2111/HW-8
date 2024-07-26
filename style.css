@@ -1,0 +1,73 @@
+#greycol{
+    color: grey;
+}
+ul{
+   list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.yellow{
+    color: yellow;
+}
+h3:nth-child(1){
+    color: pink;
+}
+p:nth-child(1){
+    color: red;
+}
+.text-box > p:nth-child(2n+1){
+    color: green;
+}
+
+h1{
+    color: powderblue;
+}
+h2:nth-child(-2n+1){
+    color: darkcyan;
+}
+.monday:nth-child(2n){
+color: red;
+}
+.tuesday:nth-child(2n){
+    color: royalblue;
+}
+.wednesday:nth-child(1n){
+    color: yellowgreen;
+}
+.thursday:nth-child(2){
+    color: gold;
+}
+.friday:nth-child(2){
+    color: lightsalmon;
+}
+#link1{
+    color: violet;
+}
+#link1:hover{
+    color: purple;
+}
+#link2{
+    color: goldenrod;
+}
+#link2:focus{
+    color: rgb(49, 49, 137);
+}
+#link3{
+    color: crimson;
+}
+#link3:visited{
+    color: red;
+}
+#link4{
+    color: greenyellow;
+}
+#link4:hover{
+    color: green;
+}
+#link5{
+    color: deeppink;
+}
+#link5:focus{
+    color: palevioletred;
+}
